@@ -1655,7 +1655,7 @@ class LDTRIMASVphSpectrograph(LDTRIMASSpectrograph):
             par["calibrations"]["wavelengths"]["nsnippet"] = 2
             par["calibrations"]["wavelengths"]["n_first"] = 3
             par["calibrations"]["wavelengths"]["n_final"] = 5
-            par["sensfunc"]["IR"]["resln_guess"] = 30
+            par["sensfunc"]["IR"]["resln_guess"] = 50 #Assessed resolution is closer to R=50 than R=30
 
         elif grating == "Vph300":
             par["calibrations"]["wavelengths"][
@@ -1663,7 +1663,7 @@ class LDTRIMASVphSpectrograph(LDTRIMASSpectrograph):
             ] = "ldt_deveny_300_HgCdAr.fits"
             par["calibrations"]["wavelengths"]["n_first"] = 3
             par["calibrations"]["wavelengths"]["n_final"] = 5
-            par["sensfunc"]["IR"]["resln_guess"] = 300
+            par["sensfunc"]["IR"]["resln_guess"] = 416 #Assessed resolution has a median of around 416 rather than 300, but it varies from R=271 and R=946 from prior analysis
 
         else:
             raise ValueError(f"Grating {grating} not recognized for RIMAS VPH modes")
