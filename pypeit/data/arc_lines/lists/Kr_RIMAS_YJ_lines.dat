@@ -1,7 +1,7 @@
-| wave      | ion | NIST | Instr | amplitude |  Source |
-|  9364.670 | Kr |    1 |     8 |       7.5 | unknown |
-|  9754.435 | Kr |    1 |   640 |     640.0 | unknown |
-|  9858.940 | Kr |    1 |    19 |      19.2 | unknown |
-| 11822.614 | Kr |    1 |    43 |      42.9 | unknown |
-| 12000.365 | Kr |    1 |    10 |       9.6 | unknown |
-| 12207.875 | Kr |    1 |    15 |      15.2 | unknown |
+| ion | wave      | NIST | Instr | amplitude |  Source |
+| KrI |  9364.670 |    1 |     8 |       7.5 | unknown |
+| KrI |  9754.435 |    1 |   640 |     640.0 | unknown |
+| KrI |  9858.940 |    1 |    19 |      19.2 | unknown |
+| KrI | 11822.614 |    1 |    43 |      42.9 | unknown |
+| KrI | 12000.365 |    1 |    10 |       9.6 | unknown |
+| KrI | 12207.875 |    1 |    15 |      15.2 | unknown |
