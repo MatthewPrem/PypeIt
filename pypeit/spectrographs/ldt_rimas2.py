@@ -1638,7 +1638,7 @@ class LDTRIMASVphSpectrograph(LDTRIMASSpectrograph):
         par["calibrations"]["slitedges"]["edge_thresh"] = 20.0
         par["calibrations"]["slitedges"]["trace_thresh"] = 20.0
         par["calibrations"]["slitedges"]["sobel_enhance"] = 3
-        par["calibrations"]["slitedges"]["trim_spec"] = [1024, 1024]
+        #par["calibrations"]["slitedges"]["trim_spec"] = [1024, 1024]
         par["calibrations"]["wavelengths"]["lamps"] = ["Xe_RIMAS_YJ"]
         par["calibrations"]["wavelengths"]["method"] = "holy-grail"
         par["calibrations"]["wavelengths"]["reid_arxiv"] = "ldt_nihts.fits"
